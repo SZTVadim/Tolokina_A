@@ -1,0 +1,53 @@
+a = "Привет"
+b = 42
+c = 3.14
+d = [1, 2, 3]
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+
+text = "python PROGRAMMING"
+print(text.lower())
+print(text.upper())
+print(text.capitalize())
+print(text.title())
+
+text = "  Hello World  "
+print(text.strip())
+print(text.lstrip())
+print(text.rstrip())
+
+text = "яблоко,банан,апельсин,груша"
+fruits = text.split(",")
+print(fruits)
+text = " | ".join(fruits)
+print(text)
+
+text = "Я изучаю Python. Python - это круто!"
+new_text = text.replace("Python", "Java")
+print(new_text)
+
+print("Python программирование на Python".index("Python"))
+print("Python программирование на Python".count("Python"))
+print("Python программирование на Python".find("Java"))
+
+print("Hello123".isalnum())
+print("12345".isdigit())
+print("Hello".isalpha())
+print("  ".isspace())
+
+text = "Python very good"
+print(text[0:3])
+print(text[-3:])
+print(text[::2])
+reversed_text = text[::-1]
+print(reversed_text)
+
+text = "Он сказал: \"Привет\""
+print(text)
+text = "Первая строка \nВторая строка"
+print(text)
+
+
+
