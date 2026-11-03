@@ -1,0 +1,20 @@
+fruits = {"яблоко", "банан"}
+fruits.add("апельсин")
+fruits_other = {"груша", "виноград"}
+fruits.update(fruits_other)
+fruits.discard("банан")
+fruits.discard("киви")
+# fruits.remove("киви")
+removed_fruit = fruits.pop()
+print("Удален", removed_fruit)
+print("Оставшиеся", fruits)
+
+coordinates = (10, 20, 30, 20, 10, 20, 40)
+print(coordinates[0])
+print(coordinates[-1])
+print(coordinates[1:4])
+print(30 in coordinates)
+coordinates.index(20)
+coordinates.count(20)
+coordinates.count(50)
+print(len(coordinates))
