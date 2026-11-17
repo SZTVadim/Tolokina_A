@@ -10,12 +10,14 @@ class Book:
     def is_long(self):
         return True if self.pages > 300 else False
 
+
 book1 = Book("Война и мир", "Толстой", 800)
 book2 = Book("Алёшкины рассказы", "Пресняков", 50)
 book3 = Book("Айболит", "Чуковский", 300)
 
 print(book1.get_info())
 print(book2.is_long())
+
 
 class BankAccount:
     def __init__ (self, owner, balance):
